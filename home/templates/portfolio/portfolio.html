@@ -1,0 +1,50 @@
+{% load static %}
+
+<!-- Start Page Title Area -->
+<div class="page-title-area item-bg3">
+    <div class="container">
+        <div class="page-title-content">
+        </div>
+    </div>
+
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+
+<!-- Start Shop Area -->
+<section class="shop-area ptb-110">
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Recent Story</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+        <div class="woocommerce-topbar">
+            <div class="row align-items-center">
+            </div>
+        </div>
+
+        <div class="row">
+            {% for rs in portfolio_latest %}
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-product-box">
+                    <div class="product-image">
+                        <a href="{{ rs.link }}">
+                            <img src="{{ rs.image.url }}" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="product-content">
+                        <h3><a href="#">{{ rs.title | safe }}</a></h3>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Shop Area -->

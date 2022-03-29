@@ -1,0 +1,14 @@
+asgiref
+Django
+django-ckeditor
+django-js-asset
+django-modeltranslation
+django-mptt
+environs
+marshmallow
+Pillow
+python-dotenv
+python-gettext
+six
+sqlparse
+whitenoise

@@ -1,0 +1,59 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-29 11:18+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bulut_digital/settings.py:121
+msgid "English"
+msgstr ""
+
+#: bulut_digital/settings.py:122
+msgid "Russian"
+msgstr ""
+
+#: bulut_digital/settings.py:123
+msgid "Uzbek"
+msgstr ""
+
+#: home/templates/components/header_v2.html:36
+#: home/templates/components/header_v2.html:39
+msgid "Home"
+msgstr ""
+
+#: home/templates/components/header_v2.html:44
+#: home/templates/components/header_v2.html:47
+msgid "Portfolio"
+msgstr ""
+
+#: home/templates/components/header_v2.html:51
+#: home/templates/components/header_v2.html:54
+msgid "About Us"
+msgstr ""
+
+#: home/templates/components/header_v2.html:59
+#: home/templates/components/header_v2.html:63
+msgid "Contact"
+msgstr ""
+
+#: home/templates/components/header_v2.html:191
+msgid "Free Consultation"
+msgstr ""
+
+#: home/templates/index/index.html:240
+msgid "Our Recent Story"
+msgstr ""

@@ -1,0 +1,296 @@
+{% load static %}
+{% load i18n %}
+<!-- Start Main Banner Area -->
+<div class="main-banner">
+    <div class="d-table">
+        <div class="d-table-cell">
+            <div class="container-fluid">
+                {% for rs in home_title %}
+                    <div class="main-banner-content">
+                        <h1>{{ rs.title }}</h1>
+                        <p>{{ rs.description }}</p>
+
+                        <div class="btn-box">
+                            <a href="{{ rs.slug_button1 }}" class="btn btn-primary">{{ rs.button1 }}</a>
+
+                            <a href="{{ rs.slug_button2 }}" class="optional-btn">{{ rs.button2 }}</a>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main Banner Area -->
+
+<!-- Start Featured Services Area -->
+<div class="featured-services-area">
+    <div class="container">
+        <div class="featured-services-inner">
+            <div class="row m-0">
+                <div class="col-lg-4 col-md-6 col-sm-6 p-0">
+                    <div class="single-featured-services-box">
+                        <div class="icon">
+                            <i class="flaticon-robot"></i>
+                        </div>
+
+                        <h3><a href="#">Kuchli
+                            ISHONCHLI BRAND MASHHUR
+                            QURISH</a></h3>
+                        <p>Jamoamiz biznessingizni har bir jihati, mijoz auditoryasini to’liq o’rganib, kompanyangiz
+                            “Brand” ini bozorda o’zining mustahkam o’rnini egallashini kafolatlaydi.</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 p-0">
+                    <div class="single-featured-services-box">
+                        <div class="icon">
+                            <i class="flaticon-artificial-intelligence"></i>
+                        </div>
+
+                        <h3><a href="#">Yangi
+                            Sodiq MIJOZ Doimiy
+                            YOMG‘IRI</a></h3>
+                        <p>Yangi ishlab chiqqan loyihalarimiz orqali sizning biznessingizga yangi mijozlar yomg’irini
+                            uyushtiramiz, har bir mijozni database bo’yicha to’liq o’rganib uni sizga sodiq va doimiy
+                            hamkorga aylantiramiz. Va bu orqali biznessingiz uchun sotuvlar sonini orttiramiz!</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-6 p-0">
+                    <div class="single-featured-services-box">
+                        <div class="icon">
+                            <i class="flaticon-machine-learning"></i>
+                        </div>
+
+                        <h3><a href="#">Kreativ
+                            xos FISHKA ideal
+                            Yaratish</a></h3>
+                        <p>Biznessingizni raqobatchilardan ustun qilib ulardan ajratib turuvchi o’ziga xos xususiyat-
+                            fishka yaratamiz. Bu orqali mijozlaringiz „Nima uchun aynan sizdan maxsulot sotib olishi
+                            yoki hizmatingizdan foydalnishi kerak“ ekanligini isbotlab beramiz!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Featured Services Area -->
+
+<!-- Start About Area -->
+<section class="about-area ptb-110">
+    <div class="container">
+        <div class="row align-items-center">
+            {% for rs in home_about_section %}
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-content">
+                        <h2>{{ rs.title }}</h2>
+                        <p>{{ rs.description }}</p>
+                        <a href="{{ rs.button_link }}" class="btn btn-primary">{{ rs.button_title }}</a>
+                    </div>
+                </div>
+            {% endfor %}
+            <div class="col-lg-6 col-md-12">
+                <div class="about-image">
+                    <img src="{% static 'assets/img/about/1.jpg' %}" alt="image">
+                    <img src="{% static 'assets/img/about/2.jpg' %}" alt="image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shape-img1"><img src="{% static 'assets/img/shape/1.png' %}" alt="image"></div>
+    <div class="shape-img2"><img src="{% static 'assets/img/shape/2.svg' %}" alt="image"></div>
+    <div class="shape-img3"><img src="{% static 'assets/img/shape/3.png' %}" alt="image"></div>
+    <div class="shape-img4"><img src="{% static 'assets/img/shape/4.svg' %}" alt="image"></div>
+    <div class="shape-img5"><img src="{% static 'assets/img/shape/5.svg' %}" alt="image"></div>
+    <div class="shape-img6"><img src="{% static 'assets/img/shape/6.png' %}" alt="image"></div>
+    <div class="dot-shape1"><img src="{% static 'assets/img/shape/dot1.png' %}" alt="image"></div>
+    <div class="dot-shape2"><img src="{% static 'assets/img/shape/dot3.png' %}" alt="image"></div>
+</section>
+<!-- End About Area -->
+
+<!-- Start Services Area -->
+<section class="services-area bg-f2f6f9 ptb-110">
+    <div class="container">
+        <div class="section-title">
+            <h2>We Offer Professional Solutions</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="flaticon-income"></i>
+                    </div>
+
+                    <h3><a href="#">Data Analysts</a></h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="flaticon-automatic"></i>
+                    </div>
+
+                    <h3><a href="#">Automatic Optimization</a></h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="flaticon-locked"></i>
+                    </div>
+
+                    <h3><a href="#">Security & Surveillance</a></h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="flaticon-molecular"></i>
+                    </div>
+
+                    <h3><a href="#">Healthcare & Manufacturing</a></h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="flaticon-gear"></i>
+                    </div>
+
+                    <h3><a href="#">Software Engineers</a></h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="single-services-box">
+                    <div class="icon">
+                        <i class="flaticon-ceo"></i>
+                    </div>
+
+                    <h3><a href="#">IT Professionals</a></h3>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shape-img2"><img src="{% static 'assets/img/shape/2.svg' %}" alt="image"></div>
+    <div class="shape-img3"><img src="{% static 'assets/img/shape/3.png' %}" alt="image"></div>
+    <div class="shape-img4"><img src="{% static 'assets/img/shape/4.svg' %}" alt="image"></div>
+    <div class="shape-img5"><img src="{% static 'assets/img/shape/5.svg' %}" alt="image"></div>
+    <div class="shape-img7"><img src="{% static 'assets/img/shape/3.png' %}" alt="image"></div>
+    <div class="dot-shape1"><img src="{% static 'assets/img/shape/dot1.png' %}" alt="image"></div>
+    <div class="dot-shape2"><img src="{% static 'assets/img/shape/dot3.png' %}" alt="image"></div>
+    <div class="dot-shape4"><img src="{% static 'assets/img/shape/dot4.png' %}" alt="image"></div>
+    <div class="dot-shape5"><img src="{% static 'assets/img/shape/dot5.png' %}" alt="image"></div>
+    <div class="dot-shape6"><img src="{% static 'assets/img/shape/dot6.png' %}" alt="image"></div>
+</section>
+<!-- End Services Area -->
+
+<!-- Start Webinar Area -->
+<section class="webinar-area">
+    <div class="row m-0">
+        <div class="col-lg-6 p-0">
+            <div class="webinar-video-image">
+                <img src="{% static 'assets/img/woman.jpg' %}" alt="image">
+
+                <a href="https://www.youtube.com/watch?v=bk7McNUjWgw" class="video-btn popup-youtube"><i
+                        class="flaticon-play-button"></i></a>
+            </div>
+        </div>
+        {% for rs in home_about_section2 %}
+            <div class="col-lg-6 p-0">
+                <div class="webinar-content">
+                    <h2>{{ rs.title }}</h2>
+                    <p>{{ rs.description }}</p>
+                    <a href="{{ rs.button_link }}" class="btn btn-primary">{{ rs.button_title }}</a>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+<!-- End Webinar Area -->
+
+{% block pricing %}{% include 'components/pricing.html' %}{% endblock %}
+
+<!-- Start Blog Area -->
+<section class="blog-area ptb-110">
+    <div class="container">
+        <div class="section-title">
+            <h2>{% trans 'Our Recent Story' %}</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+        </div>
+
+        <div class="row">
+            {% for rs in home_blog_latest %}
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="entry-thumbnail">
+                            <a href="{% url 'blog_detail' rs.blog.id rs.blog.slug %}"><img src="{{ rs.blog.image.url }}"
+                                                                                           alt="image"></a>
+                        </div>
+
+                        <div class="entry-post-content">
+                            <h3><a href="{% url 'blog_detail' rs.blog.id rs.blog.slug %}">{{ rs.blog.title }}</a></h3>
+                            <p>{{ rs.blog.description }}</p>
+                            <a href="{% url 'blog_detail' rs.blog.id rs.blog.slug %}" class="learn-more-btn">Ko'proq o'qish
+                                <i class="flaticon-add"></i></a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% for rs in rich_home_blog %}
+        <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-post">
+                        <div class="entry-thumbnail">
+                            <a href="{% url 'rich_blog_detail' rs.rich_home_blog.id rs.rich_home_blog.slug %}"><img src="{{ rs.rich_home_blog.image.url }}"
+                                                                                           alt="image"></a>
+                        </div>
+
+                        <div class="entry-post-content">
+                            <h3><a href="{% url 'rich_blog_detail' rs.rich_home_blog.id rs.rich_home_blog.slug %}">{{ rs.rich_home_blog.title }}</a></h3>
+                            <p>{{ rs.rich_home_blog.description }}</p>
+                            <a href="{% url 'rich_blog_detail' rs.rich_home_blog.id rs.rich_home_blog.slug %}" class="learn-more-btn">Ko'proq o'qish
+                                <i class="flaticon-add"></i></a>
+                        </div>
+                    </div>
+                </div>
+        {% endfor %}
+        </div>
+    </div>
+
+    <div class="shape-img2"><img src="{% static 'assets/img/shape/2.svg' %}" alt="image"></div>
+    <div class="shape-img3"><img src="{% static 'assets/img/shape/3.png' %}" alt="image"></div>
+    <div class="shape-img4"><img src="{% static 'assets/img/shape/4.svg' %}" alt="image"></div>
+    <div class="shape-img5"><img src="{% static 'assets/img/shape/5.svg' %}" alt="image"></div>
+    <div class="shape-img7"><img src="{% static 'assets/img/shape/3.png' %}" alt="image"></div>
+    <div class="dot-shape1"><img src="{% static 'assets/img/shape/dot1.png' %}" alt="image"></div>
+    <div class="dot-shape2"><img src="{% static 'assets/img/shape/dot3.png' %}" alt="image"></div>
+    <div class="dot-shape4"><img src="{% static 'assets/img/shape/dot4.png' %}" alt="image"></div>
+    <div class="dot-shape5"><img src="{% static 'assets/img/shape/dot5.png' %}" alt="image"></div>
+    <div class="dot-shape6"><img src="{% static 'assets/img/shape/dot6.png' %}" alt="image"></div>
+</section>
+<!-- End Blog Area -->
+
+{% block send_number %}{% include 'components/send_number.html' %}{% endblock %}

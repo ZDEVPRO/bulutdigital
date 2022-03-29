@@ -1,0 +1,224 @@
+{% load static %}
+{% load i18n %}
+
+{% load static %}
+{% load i18n %}
+
+<div class="navbar-area">
+    <div class="evolta-responsive-nav">
+        <div class="container">
+            <div class="evolta-responsive-menu">
+                <div class="logo">
+                    {% for rs in home_logo %}
+                        <a href="{% url 'index' %}">
+                            <img src="{{ rs.white_logo.url }}" class="main-logo" alt="logo">
+                            <img src="{{ rs.dark_logo.url }}" class="optional-logo" alt="logo">
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="evolta-nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light">
+                {% for rs in home_logo %}
+                    <a class="navbar-brand" href="{% url 'index' %}">
+                        <img width="180px" src="{{ rs.white_logo.url }}" class="main-logo" alt="logo">
+                        <img width="180px" src="{{ rs.dark_logo.url }}" class="optional-logo" alt="logo">
+                    </a>
+                {% endfor %}
+                <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        {% if request.path == '/' or request.path == '/uz/' or request.path == '/ru/' or request.path == '/en/' %}
+                            <li class="nav-item"><a href="{% url 'index' %}"
+                                                    class="nav-link active">{% trans 'Home' %}</a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item"><a href="{% url 'index' %}" class="nav-link">{% trans 'Home' %}</a>
+                            </li>
+                        {% endif %}
+                        {% if request.path == '/portfolio/' or request.path == '/uz/portfolio/' or request.path == '/en/portfolio/' or request.path == '/ru/portfolio/' %}
+                            <li class="nav-item"><a href="{% url 'portfolio' %}"
+                                                    class="nav-link active">{% trans 'Portfolio' %}</a></li>
+                        {% else %}
+                            <li class="nav-item"><a href="{% url 'portfolio' %}"
+                                                    class="nav-link">{% trans 'Portfolio' %}</a></li>
+                        {% endif %}
+                        {% if request.path == '/blog/' or request.path == '/uz/blog/' or request.path == '/en/blog/' or request.path == '/ru/blog/' %}
+                            <li class="nav-item"><a href="{% url 'blog' %}"
+                                                    class="nav-link active">{% trans 'Blog' %}</a></li>
+                        {% else %}
+                            <li class="nav-item"><a href="{% url 'blog' %}"
+                                                    class="nav-link">{% trans 'Blog' %}</a></li>
+                        {% endif %}
+                        {% if request.path == '/about/' or request.path == '/uz/about/' or request.path == '/ru/about/' or request.path == '/en/about/' %}
+                            <li class="nav-item"><a href="{% url 'about' %}"
+                                                    class="nav-link active">{% trans 'About Us' %}</a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item"><a href="{% url 'about' %}" class="nav-link">{% trans 'About Us' %}</a>
+                            </li>
+                        {% endif %}
+                        {% if request.path == '/contact/' or request.path == '/uz/contact/' or request.path == '/ru/contact/' or request.path == '/en/contact/' %}
+                            <li class="nav-item"><a href="{% url 'contact' %}"
+                                                    class="nav-link active">{% trans 'Contact' %}</a>
+                            </li>
+                        {% else %}
+                            <li class="nav-item"><a href="{% url 'contact' %}"
+                                                    class="nav-link">{% trans 'Contact' %}</a>
+                        {% endif %}
+                        <li class="nav-item" id="select">
+                            {% if request.path == '/uz/' or request.path == '/uz/portfolio/' or request.path == '/uz/blog/' or request.path == '/uz/about/' or request.path == '/uz/contact/' %}
+                                <a class="nav-link"><img src="{% static 'assets/img/flag/uz.png' %}" alt=""> <i
+                                        class="fas fa-chevron-down"></i></a>
+                            {% elif request.path == '/ru/' or request.path == '/ru/portfolio/' or request.path == '/ru/blog/' or request.path == '/ru/about/' or request.path == '/ru/contact/' %}
+                                <a class="nav-link"><img src="{% static 'assets/img/flag/ru.png' %}" alt=""> <i
+                                        class="fas fa-chevron-down"></i></a>
+                            {% else %}
+                                <a class="nav-link"><img src="{% static 'assets/img/flag/us.png' %}" alt=""> <i
+                                        class="fas fa-chevron-down"></i></a>
+                            {% endif %}
+                            <ul class="dropdown-menu">
+                                {#                                start english language#}
+                                {% if request.path == '/' or request.path == '/uz/' or request.path == '/ru/' or request.path == '/en/' %}
+                                    <li class="nav-item"><a href="/en/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/us.png' %}"/>
+                                        English</a></li>
+
+
+                                {% elif request.path == '/portfolio/' or request.path == '/ru/portfolio/' or request.path == '/uz/portfolio/' or request.path == '/en/portfolio/' %}
+                                    <li class="nav-item"><a href="/en/portfolio/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/us.png' %}"/>
+                                        English</a></li>
+
+                                {% elif request.path == '/blog/' or request.path == '/ru/blog/' or request.path == '/uz/blog/' or request.path == '/en/blog/' %}
+                                    <li class="nav-item"><a href="/en/blog/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/us.png' %}"/>
+                                        English</a></li>
+
+
+                                {% elif request.path == '/about/' or request.path == '/ru/about/' or request.path == '/uz/about/' or request.path == '/en/about/' %}
+                                    <li class="nav-item"><a href="/en/about/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/us.png' %}"/>
+                                        English</a></li>
+
+
+                                {% elif request.path == '/contact/' or request.path == '/ru/contact/' or request.path == '/uz/contact/' or request.path == '/en/contact/' %}
+                                    <li class="nav-item"><a href="/en/contact/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/us.png' %}"/>
+                                        English</a></li>
+                                {% else %}
+                                    <li class="nav-item"><a href="/uz/portfolio/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/us.png' %}"/>
+                                        English</a></li>
+                                {% endif %}
+
+                                {#                                end english language#}
+
+
+                                {#                                start russian language#}
+                                {% if request.path == '/' or request.path == '/uz/' or request.path == '/ru/' or request.path == '/en/' %}
+                                    <li class="nav-item"><a href="/ru/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/ru.png' %}"/>
+                                        Russian</a></li>
+
+
+                                {% elif request.path == '/portfolio/' or request.path == '/ru/portfolio/' or request.path == '/uz/portfolio/' or request.path == '/en/portfolio/' %}
+                                    <li class="nav-item"><a href="/ru/portfolio/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/ru.png' %}"/>
+                                        Russian</a></li>
+
+                                {% elif request.path == '/blog/' or request.path == '/ru/blog/' or request.path == '/uz/blog/' or request.path == '/en/blog/' %}
+                                    <li class="nav-item"><a href="/ru/blog/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/ru.png' %}"/>
+                                        Russian</a></li>
+
+
+                                {% elif request.path == '/about/' or request.path == '/ru/about/' or request.path == '/uz/about/' or request.path == '/en/about/' %}
+                                    <li class="nav-item"><a href="/ru/about/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/ru.png' %}"/>
+                                        Russian</a></li>
+
+
+                                {% elif request.path == '/contact/' or request.path == '/ru/contact/' or request.path == '/uz/contact/' or request.path == '/en/contact/' %}
+                                    <li class="nav-item"><a href="/ru/contact/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/ru.png' %}"/>
+                                        Russian</a></li>
+                                {% else %}
+                                    <li class="nav-item"><a href="/uz/portfolio/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/ru.png' %}"/>
+                                        Russian</a></li>
+                                {% endif %}
+                                {#                                end russian language#}
+                                {##}
+                                {#                                start uzbek lanuage#}
+                                {% if request.path == '/' or request.path == '/uz/' or request.path == '/ru/' or request.path == '/en/' %}
+                                    <li class="nav-item"><a href="/uz/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/uz.png' %}"/>
+                                        Uzbek</a></li>
+
+
+                                {% elif request.path == '/portfolio/' or request.path == '/ru/portfolio/' or request.path == '/uz/portfolio/' or request.path == '/en/portfolio/' %}
+                                    <li class="nav-item"><a href="/uz/portfolio/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/uz.png' %}"/>
+                                        Uzbek</a></li>
+
+
+                                {% elif request.path == '/blog/' or request.path == '/ru/blog/' or request.path == '/uz/blog/' or request.path == '/en/blog/' %}
+                                    <li class="nav-item"><a href="/uz/blog/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/uz.png' %}"/>
+                                        Uzbek</a></li>
+
+
+                                {% elif request.path == '/about/' or request.path == '/ru/about/' or request.path == '/uz/about/' or request.path == '/en/about/' %}
+                                    <li class="nav-item"><a href="/uz/about/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/uz.png' %}"/>
+                                        Uzbek</a></li>
+
+
+                                {% elif request.path == '/contact/' or request.path == '/ru/contact/' or request.path == '/uz/contact/' or request.path == '/en/contact/' %}
+                                    <li class="nav-item"><a href="/uz/contact/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/uz.png' %}"/>
+                                        Uzbek</a></li>
+                                {% else %}
+                                    <li class="nav-item"><a href="/uz/portfolio/" class="nav-link"><img
+                                            style="margin-right: 10px"
+                                            src="{% static 'assets/img/flag/uz.png' %}"/>
+                                        Uzbek</a></li>
+                                {% endif %}
+
+                                {#                                end uzbek language#}
+
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                    <div class="others-options">
+                        <a href="{% url 'contact' %}" class="btn btn-primary">{% trans 'Free Consultation' %}</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- End Navbar Area -->

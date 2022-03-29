@@ -1,0 +1,45 @@
+{% load static %}
+
+<!-- Start Page Title Area -->
+<div class="page-title-area item-bg3">
+    <div class="container">
+        <div class="page-title-content">
+        </div>
+    </div>
+
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+
+<!-- Start Blog Details Area -->
+<section class="blog-details-area ptb-110">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <div class="blog-details">
+                    <div class="article-image">
+                        <img src="{{ b_detail.image.url }}" alt="image">
+                    </div>
+
+                    <div class="article-content">
+
+                        <h3>{{ b_detail.title }}</h3>
+
+                        <h5>{{ b_detail.description }}</h5>
+                        <br>
+                        <p>{{ b_detail.text1 }}</p>
+
+                        <p>{{ b_detail.text2 }}</p>
+
+                        <p>{{ b_detail.text3 }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Blog Details Area -->
