@@ -1,4 +1,5 @@
 {% load static %}
+{% load i18n %}
 
 <!-- Start Free Trial Area -->
 <section class="free-trial-area">
@@ -11,7 +12,7 @@
 
         <div class="col-lg-6 col-md-12 p-0">
             <div class="free-trial-content">
-                <h2>Start your free trial</h2>
+                <h2>{% trans 'Send your number' %}</h2>
 
                 <form method="post" class="newsletter-form">
                     {% csrf_token %}
@@ -19,7 +20,7 @@
                     <button type="submit">Send</button>
                 </form>
 
-                <p>Test out the Machine Learning features for 14 days, no credit card required.</p>
+                <p>{% trans 'If you are interested in our services send us your number and we will contact you soon.' %}</p>
             </div>
         </div>
     </div>

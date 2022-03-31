@@ -1,10 +1,26 @@
-from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio, SendNumberSection, \
-    FooterData
+from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio, SendNumberSection
+from footer.models import FooterData, FooterMenuMeta, FooterServiceMeta
 from blog.models import RichBlog, HomeBlog, RichHomeBlog
 
 
+def footer_service_view(request):
+    footer_service = FooterServiceMeta.objects.all().order_by('id')[:7]
+    context = {
+        'footer_service': footer_service,
+    }
+    return context
+
+
+def footer_menu_view(request):
+    footer_menu = FooterMenuMeta.objects.all().order_by('id')[:7]
+    context = {
+        'footer_menu': footer_menu,
+    }
+    return context
+
+
 def footer_data_view(request):
-    footer_data = FooterData.objects.all().order_by('?')[:3]
+    footer_data = FooterData.objects.all().order_by('id')[:1]
     context = {
         'footer_data': footer_data,
     }
@@ -12,7 +28,7 @@ def footer_data_view(request):
 
 
 def send_number_section_view(request):
-    send_number_section = SendNumberSection.objects.all().order_by('?')[:3]
+    send_number_section = SendNumberSection.objects.all().order_by('-id')[:3]
     context = {
         'send_number_section': send_number_section,
     }

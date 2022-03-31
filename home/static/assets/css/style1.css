@@ -63,7 +63,7 @@ a {
 
 a:hover, a:focus {
     text-decoration: none;
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 button {
@@ -124,7 +124,7 @@ img {
 
 .section-title span {
     display: block;
-    color: #ff4800;
+    color: #2E54FD;
     text-transform: uppercase;
     margin-bottom: 5px;
     font-weight: 600;
@@ -164,16 +164,16 @@ img {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #ff4800;
+    background-color: #2E54FD;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
     color: #ffffff;
-    background-color: #ff4800;
+    background-color: #1fd2ff;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-    background-color: #4ac728 !important;
+    background-color: #1fd2ff !important;
     color: #ffffff !important;
     -webkit-box-shadow: unset !important;
     box-shadow: unset !important;
@@ -183,7 +183,7 @@ img {
 .learn-more-btn {
     display: inline-block;
     position: relative;
-    color: #ff4800;
+    color: #2E54FD;
     letter-spacing: .5px;
     font-size: 15px;
     font-weight: 600;
@@ -206,7 +206,7 @@ img {
     left: 0;
     bottom: 0;
     width: 0;
-    background: #ff4800;
+    background: #1fd2ff;
     height: 1px;
     opacity: 0;
     visibility: hidden;
@@ -215,7 +215,7 @@ img {
 }
 
 .learn-more-btn:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .learn-more-btn:hover::before {
@@ -262,7 +262,7 @@ img {
 .form-control:focus {
     -webkit-box-shadow: unset;
     box-shadow: unset;
-    border-color: #ff4800;
+    border-color: #2E54FD;
 }
 
 /*================================================
@@ -330,7 +330,7 @@ Preloader Area CSS
     width: 100%;
     height: 60%;
     z-index: -1;
-    background: #ff4800;
+    background: #2E54FD;
     -webkit-transition: .9s;
     transition: .9s;
 }
@@ -461,7 +461,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item a:hover, .evolta-nav .navbar .navbar-nav .nav-item a:focus, .evolta-nav .navbar .navbar-nav .nav-item a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item a i {
@@ -477,7 +477,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item:hover a, .evolta-nav .navbar .navbar-nav .nav-item:focus a, .evolta-nav .navbar .navbar-nav .nav-item.active a {
-    color: #ff4800;
+    color: #1FD2FF;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu {
@@ -515,7 +515,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
@@ -530,7 +530,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -546,7 +546,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -562,7 +562,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -578,7 +578,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -594,7 +594,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu {
@@ -610,11 +610,11 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -624,7 +624,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -634,7 +634,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -644,7 +644,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -654,7 +654,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li:hover .dropdown-menu {
@@ -664,7 +664,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li:hover .dropdown-menu {
@@ -691,7 +691,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .others-options .cart-btn:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .others-options .btn {
@@ -700,12 +700,12 @@ Navbar Area CSS
 
 .evolta-nav .navbar .others-options .btn-primary {
     background-color: #ffffff;
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .others-options .btn-primary:hover {
     color: #ffffff !important;
-    background-color: #ff4800 !important;
+    background-color: #1FD2FF !important;
 }
 
 .evolta-nav .navbar .others-options .option-item {
@@ -729,7 +729,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .others-options .option-item .search-btn:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .evolta-nav .navbar .others-options .option-item .close-btn {
@@ -747,7 +747,7 @@ Navbar Area CSS
 }
 
 .evolta-nav .navbar .others-options .option-item .close-btn:hover {
-    color: #ff4800;
+    color: #1FD2FF;
 }
 
 .navbar-area {
@@ -788,27 +788,27 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item:hover a, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item:focus a, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-    color: #333333;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-    color: #333333;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -816,7 +816,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -824,7 +824,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -832,7 +832,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -840,7 +840,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
@@ -848,31 +848,31 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .cart-btn {
@@ -880,17 +880,17 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .cart-btn:hover {
-    color: #ff4800;
+    color: #1fd2ff;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .btn-primary {
-    background-color: #ff4800;
+    background-color: #2E54FD;
     color: #ffffff;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .btn-primary:hover {
     color: #ffffff !important;
-    background-color: #4ac728 !important;
+    background-color: #1fd2ff !important;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .option-item {
@@ -902,7 +902,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .option-item .search-btn:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .option-item .close-btn {
@@ -910,7 +910,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky .evolta-nav .navbar .others-options .option-item .close-btn:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .navbar-area.is-sticky .navbar-brand {
@@ -966,7 +966,7 @@ Navbar Area CSS
 }
 
 .search-overlay.search-popup .search-form .search-input:focus {
-    border-color: #ff4800;
+    border-color: #2E54FD;
 }
 
 .search-overlay.search-popup .search-form .search-button {
@@ -984,7 +984,7 @@ Navbar Area CSS
 }
 
 .search-overlay.search-popup .search-form .search-button:hover, .search-overlay.search-popup .search-form .search-button:focus {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1024,7 +1024,7 @@ Navbar Area CSS
     }
 
     .navbar-area.is-sticky .others-options .cart-btn:hover {
-        color: #ff4800;
+        color: #2E54FD;
     }
 
     .evolta-responsive-nav {
@@ -1040,7 +1040,7 @@ Navbar Area CSS
     }
 
     .evolta-responsive-nav .evolta-responsive-menu.mean-container .mean-nav ul li a.active {
-        color: #ff4800;
+        color: #2E54FD;
     }
 
     .evolta-responsive-nav .evolta-responsive-menu.mean-container .mean-nav ul li li a {
@@ -1090,7 +1090,7 @@ Navbar Area CSS
     }
 
     .others-options .cart-btn:hover {
-        color: #ff4800;
+        color: #2E54FD;
     }
 
     .evolta-nav {
@@ -1169,7 +1169,7 @@ Main Banner Area CSS
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: #ff4800;
+    background-color: #2E54FD;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -1212,7 +1212,7 @@ Featured Services Area CSS
 
 .single-featured-services-box .icon {
     margin-bottom: 5px;
-    color: #ff4800;
+    color: #2E54FD;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -1245,7 +1245,7 @@ Featured Services Area CSS
     position: absolute;
     left: 0;
     top: 0;
-    background-color: #ff4800;
+    background-color: #2E54FD;
     width: 2px;
     height: 100%;
     -webkit-transition: 0.5s;
@@ -1695,14 +1695,14 @@ Services Area CSS
 
 .single-services-box .icon {
     margin-bottom: 18px;
-    background-color: #ffe4d9;
+    background-color: #99ffff;
     width: 75px;
     height: 75px;
     line-height: 75px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     text-align: center;
-    color: #ff4800;
+    color: #2E54FD;
     border-radius: 50%;
 }
 
@@ -1735,7 +1735,7 @@ Services Area CSS
     position: absolute;
     left: 0;
     bottom: 0;
-    background-color: #ff4800;
+    background-color: #2E54FD;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     z-index: -1;
@@ -1750,7 +1750,7 @@ Services Area CSS
 
 .single-services-box:hover .icon {
     background-color: #ffffff;
-    color: #ff4800;
+    color: #2E54FD;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
@@ -1849,7 +1849,7 @@ Services Details Area CSS
     width: 40px;
     text-align: center;
     height: 100%;
-    background: #ff4800;
+    background: #2E54FD;
     color: #ffffff;
 }
 
@@ -1935,7 +1935,7 @@ Webinar Area CSS
     width: 90px;
     height: 90px;
     line-height: 90px;
-    background-color: #ff4800;
+    background-color: #2E54FD;
     border-radius: 50%;
     color: #ffffff;
     z-index: 1;
@@ -1955,7 +1955,7 @@ Webinar Area CSS
     bottom: 0;
     left: 0;
     border-radius: 50%;
-    border: 1px solid #ff4800;
+    border: 1px solid #2E54FD;
 }
 
 .webinar-video-image .video-btn::before {
@@ -1969,7 +1969,7 @@ Webinar Area CSS
 }
 
 .webinar-video-image .video-btn:hover, .webinar-video-image .video-btn:focus {
-    background-color: #4ac728;
+    background-color: #1fd2ff;
     color: #ffffff;
 }
 
@@ -2054,13 +2054,13 @@ Team Area CSS
 
 .single-team-box .image .social a {
     display: inline-block;
-    color: #ff4800;
+    color: #2E54FD;
     font-size: 17px;
     margin: 0 7px;
 }
 
 .single-team-box .image .social a:hover {
-    color: #4ac728;
+    color: #1fd2ff;
 }
 
 .single-team-box .content {
@@ -2081,7 +2081,7 @@ Team Area CSS
 .single-team-box .content span {
     display: block;
     margin-top: 8px;
-    color: #ff4800;
+    color: #2E54FD;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Dosis", sans-serif;
@@ -2106,7 +2106,7 @@ Team Area CSS
 }
 
 .single-team-box:hover .content {
-    background-color: #ff4800;
+    background-color: #2E54FD;
 }
 
 .single-team-box:hover .content h3 {
@@ -2166,15 +2166,15 @@ Partner Area CSS
 .partner-item a::before {
     left: 0;
     top: 0;
-    border-left: 3px solid #ff4800;
-    border-top: 3px solid #ff4800;
+    border-left: 3px solid #2E54FD;
+    border-top: 3px solid #2E54FD;
 }
 
 .partner-item a::after {
     right: 0;
     bottom: 0;
-    border-right: 3px solid #ff4800;
-    border-bottom: 3px solid #ff4800;
+    border-right: 3px solid #2E54FD;
+    border-bottom: 3px solid #2E54FD;
 }
 
 .partner-item a img {
@@ -2265,7 +2265,7 @@ Feedback Area CSS
     left: 0;
     top: 0;
     content: '';
-    background-color: #ff4800;
+    background-color: #2E54FD;
     z-index: -1;
     display: none;
 }
@@ -2455,7 +2455,7 @@ Pricing Area CSS
 }
 
 .single-pricing-box .pricing-features li i {
-    color: #ff4800;
+    color: #2E54FD;
     font-size: 12px;
     position: absolute;
     left: 0;
@@ -2603,7 +2603,7 @@ Blog Area CSS
 }
 
 .single-blog-post .entry-post-content .entry-meta ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .single-blog-post .entry-post-content .entry-meta ul li:last-child {
@@ -2680,11 +2680,11 @@ Blog Details Area CSS
 }
 
 .blog-details .article-content .entry-meta ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .blog-details .article-content .entry-meta ul li i {
-    color: #ff4800;
+    color: #2E54FD;
     margin-right: 2px;
 }
 
@@ -2695,7 +2695,7 @@ Blog Details Area CSS
     right: -15px;
     width: 6px;
     height: 1px;
-    background: #ff4800;
+    background: #2E54FD;
 }
 
 .blog-details .article-content .entry-meta ul li:last-child {
@@ -2754,7 +2754,7 @@ Blog Details Area CSS
 }
 
 .blog-details .article-content .article-features-list li::before {
-    background: #ff4800;
+    background: #2E54FD;
     height: 7px;
     width: 7px;
     content: '';
@@ -2805,7 +2805,7 @@ Blog Details Area CSS
 }
 
 .blog-details .article-footer .article-tags a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .blog-details .article-footer .article-share {
@@ -2839,7 +2839,7 @@ Blog Details Area CSS
 
 .blog-details .article-footer .article-share .social li a:hover {
     color: #ffffff;
-    background-color: #ff4800;
+    background-color: #2E54FD;
 }
 
 blockquote, .blockquote {
@@ -2933,8 +2933,8 @@ blockquote::before, .blockquote::before {
 
 .comments-area .comment-body .reply a:hover {
     color: #ffffff;
-    background-color: #ff4800;
-    border-color: #ff4800;
+    background-color: #2E54FD;
+    border-color: #2E54FD;
 }
 
 .comments-area .comment-meta {
@@ -2978,7 +2978,7 @@ blockquote::before, .blockquote::before {
 }
 
 .comments-area .comment-metadata a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .comments-area .comment-content p {
@@ -3036,7 +3036,7 @@ blockquote::before, .blockquote::before {
 }
 
 .comments-area .comment-respond input[type="date"]:focus, .comments-area .comment-respond input[type="time"]:focus, .comments-area .comment-respond input[type="datetime-local"]:focus, .comments-area .comment-respond input[type="week"]:focus, .comments-area .comment-respond input[type="month"]:focus, .comments-area .comment-respond input[type="text"]:focus, .comments-area .comment-respond input[type="email"]:focus, .comments-area .comment-respond input[type="url"]:focus, .comments-area .comment-respond input[type="password"]:focus, .comments-area .comment-respond input[type="search"]:focus, .comments-area .comment-respond input[type="tel"]:focus, .comments-area .comment-respond input[type="number"]:focus, .comments-area .comment-respond textarea:focus {
-    border-color: #ff4800;
+    border-color: #2E54FD;
 }
 
 .comments-area .comment-respond .comment-form-author {
@@ -3086,7 +3086,7 @@ blockquote::before, .blockquote::before {
 }
 
 .comments-area .comment-respond .form-submit input {
-    background-color: #ff4800;
+    background-color: #2E54FD;
     border: none;
     color: #ffffff;
     padding: 10.5px 25px;
@@ -3104,7 +3104,7 @@ blockquote::before, .blockquote::before {
 
 .comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
     color: #ffffff;
-    background-color: #4ac728;
+    background-color: #1fd2ff;
 }
 
 /*================================================
@@ -3191,14 +3191,14 @@ Free Trial Area CSS
     border-radius: 30px;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    color: #ff4800;
+    color: #2E54FD;
     font-family: "Dosis", sans-serif;
     font-size: 16px;
     font-weight: 600;
 }
 
 .free-trial-content form button:hover {
-    background-color: #4ac728;
+    background-color: #1fd2ff;
     color: #ffffff;
 }
 
@@ -3215,7 +3215,7 @@ Free Trial Area CSS
     left: 0;
     top: 0;
     content: '';
-    background-color: #ff4800;
+    background-color: #2E54FD;
     z-index: -1;
     display: none;
 }
@@ -3298,11 +3298,11 @@ Page Title Area CSS
 }
 
 .page-title-content ul li a {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .page-title-content ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .page-title-content ul li::before {
@@ -3352,7 +3352,7 @@ Pagination Area CSS
 }
 
 .pagination-area .page-numbers.current, .pagination-area .page-numbers:hover, .pagination-area .page-numbers:focus {
-    background: #ff4800;
+    background: #2E54FD;
     color: #ffffff;
     -webkit-box-shadow: unset;
     box-shadow: unset;
@@ -3382,7 +3382,7 @@ Sidebar Area CSS
 .widget-area .widget .widget-title::before {
     content: '';
     position: absolute;
-    background: #ff4800;
+    background: #2E54FD;
     bottom: -1px;
     left: 0;
     width: 50px;
@@ -3422,7 +3422,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_search form .search-field:focus {
-    border-color: #ff4800;
+    border-color: #2E54FD;
 }
 
 .widget-area .widget_search form button {
@@ -3435,13 +3435,13 @@ Sidebar Area CSS
     z-index: 1;
     border: none;
     color: #ffffff;
-    background-color: #ff4800;
+    background-color: #2E54FD;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
 
 .widget-area .widget_search form button:hover {
-    background-color: #4ac728;
+    background-color: #1fd2ff;
     color: #ffffff;
 }
 
@@ -3531,7 +3531,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_recent_entries ul li::before {
-    background: #ff4800;
+    background: #2E54FD;
     position: absolute;
     height: 7px;
     width: 7px;
@@ -3545,7 +3545,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_recent_entries ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .widget-area .widget_recent_entries ul li .post-date {
@@ -3577,7 +3577,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_recent_comments ul li::before {
-    background: #ff4800;
+    background: #2E54FD;
     height: 7px;
     width: 7px;
     content: '';
@@ -3596,7 +3596,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_recent_comments ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .widget-area .widget_archive ul {
@@ -3620,7 +3620,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_archive ul li::before {
-    background: #ff4800;
+    background: #2E54FD;
     height: 7px;
     width: 7px;
     content: '';
@@ -3634,7 +3634,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_archive ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .widget-area .widget_categories ul {
@@ -3658,7 +3658,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_categories ul li::before {
-    background: #ff4800;
+    background: #2E54FD;
     height: 7px;
     width: 7px;
     content: '';
@@ -3672,7 +3672,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_categories ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .widget-area .widget_categories ul li .post-count {
@@ -3700,7 +3700,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_meta ul li::before {
-    background: #ff4800;
+    background: #2E54FD;
     height: 7px;
     width: 7px;
     content: '';
@@ -3714,7 +3714,7 @@ Sidebar Area CSS
 }
 
 .widget-area .widget_meta ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .widget-area .widget_tag_cloud .widget-title {
@@ -3734,8 +3734,8 @@ Sidebar Area CSS
 
 .widget-area .tagcloud a:hover, .widget-area .tagcloud a:focus {
     color: #ffffff;
-    background-color: #ff4800;
-    border-color: #ff4800;
+    background-color: #2E54FD;
+    border-color: #2E54FD;
 }
 
 /*================================================
@@ -3817,7 +3817,7 @@ FAQ Area CSS
     width: 40px;
     text-align: center;
     height: 100%;
-    background: #ff4800;
+    background: #2E54FD;
     color: #ffffff;
 }
 
@@ -4043,7 +4043,7 @@ Coming Soon Area CSS
 }
 
 .coming-soon-area .coming-soon-content .social ul li a:hover {
-    background-color: #ff4800;
+    background-color: #2E54FD;
     color: #ffffff;
 }
 
@@ -4166,7 +4166,7 @@ Shop Area CSS
 }
 
 .woocommerce-topbar .woocommerce-topbar-ordering .nice-select .list .option:hover {
-    background-color: #ff4800 !important;
+    background-color: #2E54FD !important;
     color: #ffffff;
 }
 
@@ -4233,7 +4233,7 @@ Shop Area CSS
 }
 
 .single-product-box .product-image .add-to-cart-btn:hover {
-    background-color: #ff4800;
+    background-color: #2E54FD;
     color: #ffffff;
 }
 
@@ -4344,8 +4344,8 @@ Product Details Area CSS
 }
 
 .product-details-desc .product-review .rating-count:hover {
-    color: #ff4800;
-    border-color: #ff4800;
+    color: #2E54FD;
+    border-color: #2E54FD;
 }
 
 .product-details-desc .product-add-to-cart {
@@ -4383,7 +4383,7 @@ Product Details Area CSS
 }
 
 .product-details-desc .product-add-to-cart .input-counter span:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .product-details-desc .product-add-to-cart .input-counter input {
@@ -4628,8 +4628,8 @@ Product Details Area CSS
 
 .products-details-tab .tabs li a:hover, .products-details-tab .tabs li a:focus {
     color: #ffffff;
-    background-color: #ff4800;
-    border-color: #ff4800;
+    background-color: #2E54FD;
+    border-color: #2E54FD;
 }
 
 .products-details-tab .tabs li a:hover .dot, .products-details-tab .tabs li a:focus .dot {
@@ -4642,8 +4642,8 @@ Product Details Area CSS
 
 .products-details-tab .tabs li.current a {
     color: #ffffff;
-    background-color: #ff4800;
-    border-color: #ff4800;
+    background-color: #2E54FD;
+    border-color: #2E54FD;
 }
 
 .products-details-tab .tabs li.current a .dot {
@@ -4784,7 +4784,7 @@ Product Details Area CSS
 }
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-comments .review-item .review-report-link:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .products-details-tab .tab_content .tabs_item .products-details-tab-content .product-review-form .review-form {
@@ -4874,7 +4874,7 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-name a:hover {
-    color: #4ac728;
+    color: #1fd2ff;
 }
 
 .cart-table table tbody tr td.product-price span {
@@ -4918,7 +4918,7 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter span:hover {
-    color: #4ac728;
+    color: #1fd2ff;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input {
@@ -4972,7 +4972,7 @@ Cart Area CSS
     right: 0;
     top: 0;
     height: 45px;
-    background: #ff4800;
+    background: #2E54FD;
     color: #ffffff;
     border: none;
     padding: 0 25px;
@@ -4983,7 +4983,7 @@ Cart Area CSS
 }
 
 .cart-buttons .shopping-coupon-code button:hover {
-    background-color: #4ac728;
+    background-color: #1fd2ff;
 }
 
 .cart-totals {
@@ -5044,7 +5044,7 @@ Checkout Area CSS
     background: #ffffff;
     padding: 18px 20px 15px;
     margin-bottom: 65px;
-    border-top: 3px solid #ff4800;
+    border-top: 3px solid #2E54FD;
     position: relative;
 }
 
@@ -5059,14 +5059,14 @@ Checkout Area CSS
 }
 
 .user-actions i {
-    color: #ff4800;
+    color: #2E54FD;
     margin-right: 2px;
 }
 
 .user-actions span {
     display: inline-block;
     font-weight: 600;
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .user-actions span a {
@@ -5075,7 +5075,7 @@ Checkout Area CSS
 }
 
 .user-actions span a:hover, .user-actions span a:focus {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .checkout-area .title {
@@ -5130,7 +5130,7 @@ Checkout Area CSS
 }
 
 .billing-details .form-group .nice-select .list .option:hover {
-    background-color: #4ac728 !important;
+    background-color: #1fd2ff !important;
     color: #ffffff;
 }
 
@@ -5207,7 +5207,7 @@ Checkout Area CSS
 }
 
 .order-details .order-table table tbody tr td.product-name a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .order-details .order-table table tbody tr td.order-subtotal, .order-details .order-table table tbody tr td.order-shipping, .order-details .order-table table tbody tr td.total-price {
@@ -5266,7 +5266,7 @@ Checkout Area CSS
     content: '';
     width: 12px;
     height: 12px;
-    background: #ff4800;
+    background: #2E54FD;
     position: absolute;
     top: 6px;
     left: 3px;
@@ -5402,19 +5402,19 @@ Contact Area CSS
 
 .contact-info .contact-info-content h2 a {
     display: inline-block;
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .contact-info .contact-info-content h2 a:hover {
-    color: #4ac728;
+    color: #1fd2ff;
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child) {
-    color: #4ac728;
+    color: #1fd2ff;
 }
 
 .contact-info .contact-info-content h2 a:not(:first-child):hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .contact-info .contact-info-content h2 span {
@@ -5453,8 +5453,8 @@ Contact Area CSS
 
 .contact-info .contact-info-content .social li a:hover {
     color: #ffffff;
-    border-color: #ff4800;
-    background-color: #ff4800;
+    border-color: #2E54FD;
+    background-color: #2E54FD;
 }
 
 /*================================================
@@ -5515,7 +5515,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .social li a:hover {
-    background-color: #ff4800;
+    background-color: #2E54FD;
     color: #ffffff;
 }
 
@@ -5535,7 +5535,7 @@ Footer Area CSS
     bottom: 0;
     width: 40px;
     height: 2px;
-    background: #ff4800;
+    background: #2E54FD;
 }
 
 .single-footer-widget .footer-services-list {
@@ -5556,7 +5556,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-services-list li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .single-footer-widget .footer-services-list li:last-child {
@@ -5581,7 +5581,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .quick-links-list li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .single-footer-widget .quick-links-list li:last-child {
@@ -5607,7 +5607,7 @@ Footer Area CSS
 }
 
 .single-footer-widget .footer-contact-list li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .single-footer-widget .footer-contact-list li span {
@@ -5636,7 +5636,7 @@ Footer Area CSS
 }
 
 .copyright-area p a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .copyright-area ul {
@@ -5660,7 +5660,7 @@ Footer Area CSS
 }
 
 .copyright-area ul li a:hover {
-    color: #ff4800;
+    color: #2E54FD;
 }
 
 .copyright-area ul li::before {
@@ -5774,7 +5774,7 @@ Go Top CSS
     top: 0;
     right: 15px;
     color: #ffffff;
-    background: #ff4800;
+    background: #2E54FD;
     z-index: 4;
     width: 40px;
     text-align: center;
@@ -5820,7 +5820,7 @@ Go Top CSS
     width: 100%;
     height: 100%;
     z-index: -1;
-    background: #4ac728;
+    background: #1fd2ff;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: 0.5s;

@@ -1,5 +1,6 @@
 from django.contrib import admin
-from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio, FooterData
+from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio
+
 
 
 class HomeTitleAdmin(admin.ModelAdmin):
@@ -15,8 +16,6 @@ class PortfolioAdmin(admin.ModelAdmin):
 class HomeAboutSection2Admin(admin.ModelAdmin):
     list_display = ['title', 'description']
 
-
-admin.site.register(FooterData)
 admin.site.register(Portfolio, PortfolioAdmin)
 admin.site.register(HomeAboutSection2, HomeAboutSection2Admin)
 admin.site.register(HomeAboutSection)

@@ -100,15 +100,4 @@ class Portfolio(models.Model):
     image_tag.short_description = 'Image'
 
 
-class FooterData(models.Model):
-    white_logo = models.ImageField(upload_to='images/white_logo/')
-    description = models.TextField(max_length=1000)
 
-    telegram = models.CharField(max_length=300, blank=True)
-    instagram = models.CharField(max_length=300, blank=True)
-    linkedin = models.CharField(max_length=300, blank=True)
-    facebook = models.CharField(max_length=300, blank=True)
-
-    class Meta:
-        verbose_name = 'Footer Logo and About'
-        verbose_name_plural = 'Footer Logo And About'

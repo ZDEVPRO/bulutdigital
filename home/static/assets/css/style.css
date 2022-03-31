@@ -163,16 +163,16 @@ img {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #ff4800;
+  background-color: #2E54FD;
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #ffffff;
-  background-color: #ff4800;
+  background-color: #6B05FF;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #4ac728 !important;
+  background-color: #1fd2ff !important;
   color: #ffffff !important;
   -webkit-box-shadow: unset !important;
           box-shadow: unset !important;

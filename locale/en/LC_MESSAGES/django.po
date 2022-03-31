@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-30 16:33+0500\n"
+"POT-Creation-Date: 2022-03-31 13:10+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,16 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: bulut_digital/settings.py:121
+#: bulut_digital/settings.py:122
 msgid "English"
 msgstr ""
 
-#: bulut_digital/settings.py:122
+#: bulut_digital/settings.py:123
 msgid "Russian"
 msgstr ""
 
-#: bulut_digital/settings.py:123
+#: bulut_digital/settings.py:124
 msgid "Uzbek"
+msgstr ""
+
+#: home/templates/blog/blog.html:42
+msgid "Read More"
 msgstr ""
 
 #: home/templates/components/header_v2.html:36
@@ -55,15 +59,25 @@ msgstr ""
 msgid "Contact"
 msgstr ""
 
-#: home/templates/components/header_v2.html:80
+#: home/templates/components/header_v2.html:82
 msgid "Til"
 msgstr "Language"
 
-#: home/templates/components/header_v2.html:216
+#: home/templates/components/header_v2.html:218
 msgid "Free Consultation"
 msgstr ""
 
-#: home/templates/index/index.html:228
+#: home/templates/components/send_number.html:15
+msgid "Send your number"
+msgstr ""
+
+#: home/templates/components/send_number.html:23
+msgid ""
+"If you are interested in our services send us your number and we will "
+"contact you soon."
+msgstr ""
+
+#: home/templates/index/index.html:251
 msgid "Our Recent Story"
 msgstr ""
 

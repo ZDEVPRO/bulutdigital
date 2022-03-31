@@ -1,6 +1,22 @@
 from modeltranslation.translator import register, TranslationOptions
 from home.models import HomeTitle, HomeAboutSection, Portfolio, SendNumberSection, HomeAboutSection2
 from blog.models import Blog, RichBlog
+from footer.models import FooterMenuMeta, FooterServiceMeta, FooterData
+
+
+@register(FooterData)
+class FooterDataTranslationOptions(TranslationOptions):
+    fields = ('description',)
+
+
+@register(FooterMenuMeta)
+class FooterMenuMetaTranslationOptions(TranslationOptions):
+    fields = ('title',)
+
+
+@register(FooterServiceMeta)
+class FooterServiceMetaTranslationOptions(TranslationOptions):
+    fields = ('title',)
 
 
 @register(HomeTitle)
