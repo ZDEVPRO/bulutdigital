@@ -2,7 +2,7 @@ from django.core.paginator import Paginator
 from blog.models import Blog, RichBlog
 from home.forms import SendNumberForm
 from contact.models import SendNumber
-
+from home.models import Portfolio
 from django.shortcuts import render, redirect
 from home.forms import AloqaForm
 from contact.models import Aloqa
@@ -91,3 +91,11 @@ def rich_blog_detail_view(request, id, slug):
 
 def portfolio(request):
     return render(request, 'portfolio/base.html')
+
+
+def portfolio_detail_view(request, id, slug):
+    portfolio_detail = Portfolio.objects.get(pk=id)
+    context = {
+        'portfolio_detail': portfolio_detail,
+    }
+    return render(request, 'portfolio_detail/base.html', context)

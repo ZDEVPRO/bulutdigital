@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-29 11:18+0500\n"
+"POT-Creation-Date: 2022-03-30 16:33+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -42,18 +42,55 @@ msgstr ""
 
 #: home/templates/components/header_v2.html:51
 #: home/templates/components/header_v2.html:54
+msgid "Blog"
+msgstr ""
+
+#: home/templates/components/header_v2.html:58
+#: home/templates/components/header_v2.html:61
 msgid "About Us"
 msgstr ""
 
-#: home/templates/components/header_v2.html:59
-#: home/templates/components/header_v2.html:63
+#: home/templates/components/header_v2.html:66
+#: home/templates/components/header_v2.html:70
 msgid "Contact"
 msgstr ""
 
-#: home/templates/components/header_v2.html:191
+#: home/templates/components/header_v2.html:80
+msgid "Til"
+msgstr "Language"
+
+#: home/templates/components/header_v2.html:216
 msgid "Free Consultation"
 msgstr ""
 
-#: home/templates/index/index.html:240
+#: home/templates/index/index.html:228
 msgid "Our Recent Story"
 msgstr ""
+
+#: home/templates/portfolio_detail/portfolio_detail.html:57
+msgid "Tavsifi"
+msgstr "Description"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:62
+msgid "Qo`shimcha malumotlar"
+msgstr "Additional information"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:78
+msgid "Mijoz:"
+msgstr "Client:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:79
+msgid "Ish olingan sana:"
+msgstr "Date of employment:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:80
+msgid "Topshirilgan sana:"
+msgstr "Date of submission:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:81
+msgid "Xizmat turi:"
+msgstr "Service type:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:82
+msgid "Byudjet:"
+msgstr "Budget:"

@@ -1,5 +1,22 @@
-from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio
+from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio, SendNumberSection, \
+    FooterData
 from blog.models import RichBlog, HomeBlog, RichHomeBlog
+
+
+def footer_data_view(request):
+    footer_data = FooterData.objects.all().order_by('?')[:3]
+    context = {
+        'footer_data': footer_data,
+    }
+    return context
+
+
+def send_number_section_view(request):
+    send_number_section = SendNumberSection.objects.all().order_by('?')[:3]
+    context = {
+        'send_number_section': send_number_section,
+    }
+    return context
 
 
 def rich_home_blog_view(request):

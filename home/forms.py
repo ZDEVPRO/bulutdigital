@@ -1,5 +1,6 @@
 from django.forms import ModelForm, TextInput, Textarea
 from contact.models import SendNumber, Aloqa
+from django.utils.translation import gettext_lazy as _
 
 
 class AloqaForm(ModelForm):

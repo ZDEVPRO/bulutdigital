@@ -30,14 +30,16 @@ class HomeLogo(models.Model):
 
 
 class HomeAboutSection(models.Model):
-    title = models.TextField(max_length=400)
-    description = models.TextField(max_length=1000)
+    # title = models.TextField(max_length=400)
+    # description = models.TextField(max_length=1000)
 
-    button_title = models.CharField(max_length=300)
-    button_link = models.CharField(max_length=300)
+    content = RichTextUploadingField()
 
-    def __str__(self):
-        return self.title
+    # button_title = models.CharField(max_length=300)
+    # button_link = models.CharField(max_length=300)
+
+    # def __str__(self):
+    #     return self.title
 
     class Meta:
         verbose_name = 'Home About Section'
@@ -74,12 +76,19 @@ class SendNumberSection(models.Model):
 
 
 class Portfolio(models.Model):
-    title = RichTextField()
-    image = models.ImageField(max_length=500)
-    link = models.CharField(max_length=500)
+    title = models.CharField(max_length=500)
+    slug = models.SlugField(unique=True)
+    description1 = models.TextField(max_length=1500)
+    description2 = models.TextField(max_length=1500)
+    client = models.CharField(max_length=300)
+    work_taken = models.CharField(max_length=300)
+    work_finished = models.CharField(max_length=300)
+    service_type = models.CharField(max_length=300)
+    budget = models.CharField(max_length=300)
+    image = models.ImageField(upload_to='images/')
 
     def __str__(self):
-        return self.link
+        return self.title
 
     class Meta:
         verbose_name = 'Portfolio'
@@ -89,3 +98,17 @@ class Portfolio(models.Model):
         return mark_safe('<img src="{}" height="50">'.format(self.image.url))
 
     image_tag.short_description = 'Image'
+
+
+class FooterData(models.Model):
+    white_logo = models.ImageField(upload_to='images/white_logo/')
+    description = models.TextField(max_length=1000)
+
+    telegram = models.CharField(max_length=300, blank=True)
+    instagram = models.CharField(max_length=300, blank=True)
+    linkedin = models.CharField(max_length=300, blank=True)
+    facebook = models.CharField(max_length=300, blank=True)
+
+    class Meta:
+        verbose_name = 'Footer Logo and About'
+        verbose_name_plural = 'Footer Logo And About'

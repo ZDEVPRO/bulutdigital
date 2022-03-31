@@ -33,13 +33,13 @@
             <div class="col-lg-4 col-md-6 col-sm-6">
                 <div class="single-product-box">
                     <div class="product-image">
-                        <a href="{{ rs.link }}">
+                        <a href="{% url 'portfolio_detail' rs.id rs.slug %}">
                             <img src="{{ rs.image.url }}" alt="image">
                         </a>
                     </div>
 
                     <div class="product-content">
-                        <h3><a href="#">{{ rs.title | safe }}</a></h3>
+                        <h3><a href="{% url 'portfolio_detail' rs.id rs.slug %}">{{ rs.title }}</a></h3>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,94 @@
+{% load static %}
+{% load i18n %}
+
+<!-- Start Page Title Area -->
+<div class="page-title-area item-bg3">
+    <div class="container">
+        <div class="page-title-content">
+        </div>
+    </div>
+
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</div>
+<!-- End Page Title Area -->
+
+{#<!-- Start Blog Details Area -->#}
+{#<section class="blog-details-area ptb-110">#}
+{#    <div class="container">#}
+{#        <div class="row">#}
+{#            <div class="col-lg-8 col-md-12">#}
+{#                {{ portfolio_detail.content | safe }}#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
+{#</section>#}
+{#<!-- End Blog Details Area -->#}
+
+<!-- Start Product Details Area -->
+<section class="product-details-area ptb-110">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12">
+                <div class="product-details-image">
+                    <img src="{{ portfolio_detail.image.url }}" alt="image">
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-12">
+                <div class="product-details-desc">
+                    <h3>{{ portfolio_detail.title }}</h3>
+
+                    <p>{{ portfolio_detail.description1 }}</p>
+
+                </div>
+            </div>
+
+            <div class="col-lg-12 col-md-12">
+                <div class="tab products-details-tab">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <ul class="tabs">
+                                <li><a>
+                                    <div class="dot"></div>
+                                    {% trans 'Tavsifi' %}
+                                </a></li>
+
+                                <li><a>
+                                    <div class="dot"></div>
+                                    {% trans 'Qo`shimcha malumotlar' %}
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-12 col-md-12">
+                            <div class="tab_content">
+                                <div class="tabs_item">
+                                    <div class="products-details-tab-content">
+                                        <p>{{ portfolio_detail.description2 }}</p>
+                                    </div>
+                                </div>
+
+                                <div class="tabs_item">
+                                    <div class="products-details-tab-content">
+                                        <ul class="additional-information">
+                                            <li><span>{% trans 'Mijoz:' %}</span> {{ portfolio_detail.client }}</li>
+                                            <li><span>{% trans 'Ish olingan sana:' %}</span> {{ portfolio_detail.work_taken }}</li>
+                                            <li><span>{% trans 'Topshirilgan sana:' %}</span> {{ portfolio_detail.work_finished }}</li>
+                                            <li><span>{% trans 'Xizmat turi:' %}</span> {{ portfolio_detail.service_type }}</li>
+                                            <li><span>{% trans 'Byudjet:' %}</span> {{ portfolio_detail.budget }}</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Product Details Area -->

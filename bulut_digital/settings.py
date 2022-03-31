@@ -63,6 +63,7 @@ TEMPLATES = [
                 'home.context.home_logo_view',
                 'home.context.home_title_view',
                 'home.context.rich_blog_view',
+                'home.context.footer_data_view',
                 'home.context.rich_home_blog_view',
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
@@ -106,7 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'uz'
 
 TIME_ZONE = 'UTC'
 

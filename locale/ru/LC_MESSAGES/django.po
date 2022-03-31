@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-29 11:18+0500\n"
+"POT-Creation-Date: 2022-03-30 16:33+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,20 +47,54 @@ msgstr "портфолио"
 msgid "Blog"
 msgstr "Блог"
 
-#: home/templates/components/header_v2.html:51
-#: home/templates/components/header_v2.html:54
+#: home/templates/components/header_v2.html:58
+#: home/templates/components/header_v2.html:61
 msgid "About Us"
 msgstr "О нас"
 
-#: home/templates/components/header_v2.html:59
-#: home/templates/components/header_v2.html:63
+#: home/templates/components/header_v2.html:66
+#: home/templates/components/header_v2.html:70
 msgid "Contact"
 msgstr "Контакт"
 
-#: home/templates/components/header_v2.html:191
+#: home/templates/components/header_v2.html:80
+msgid "Til"
+msgstr "язык"
+
+#: home/templates/components/header_v2.html:216
 msgid "Free Consultation"
 msgstr "Бесплатная консультация"
 
-#: home/templates/index/index.html:240
+#: home/templates/index/index.html:228
 msgid "Our Recent Story"
 msgstr "Наша недавняя история"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:57
+msgid "Tavsifi"
+msgstr "Описание"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:62
+msgid "Qo`shimcha malumotlar"
+msgstr "Дополнительная информация"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:78
+msgid "Mijoz:"
+msgstr "Клиент:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:79
+msgid "Ish olingan sana:"
+msgstr "Дата приема на работу:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:80
+#, fuzzy
+#| msgid "Topshirilgan sana: "
+msgid "Topshirilgan sana:"
+msgstr "Дата подачи:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:81
+msgid "Xizmat turi:"
+msgstr "Тип обслуживания:"
+
+#: home/templates/portfolio_detail/portfolio_detail.html:82
+msgid "Byudjet:"
+msgstr "Бюджет:"

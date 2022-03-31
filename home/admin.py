@@ -1,5 +1,5 @@
 from django.contrib import admin
-from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio
+from home.models import HomeTitle, HomeLogo, HomeAboutSection, HomeAboutSection2, Portfolio, FooterData
 
 
 class HomeTitleAdmin(admin.ModelAdmin):
@@ -7,20 +7,18 @@ class HomeTitleAdmin(admin.ModelAdmin):
 
 
 class PortfolioAdmin(admin.ModelAdmin):
-    list_display = ['link', 'image_tag']
+    list_display = ['title', 'image_tag']
     readonly_fields = ['image_tag']
-
-
-class HomeAboutSectionAdmin(admin.ModelAdmin):
-    list_display = ['title', 'description']
+    prepopulated_fields = {'slug': ('title',)}
 
 
 class HomeAboutSection2Admin(admin.ModelAdmin):
     list_display = ['title', 'description']
 
 
+admin.site.register(FooterData)
 admin.site.register(Portfolio, PortfolioAdmin)
-admin.site.register(HomeAboutSection, HomeAboutSectionAdmin)
 admin.site.register(HomeAboutSection2, HomeAboutSection2Admin)
+admin.site.register(HomeAboutSection)
 admin.site.register(HomeLogo)
 admin.site.register(HomeTitle, HomeTitleAdmin)

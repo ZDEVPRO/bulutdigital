@@ -5,19 +5,20 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-6 col-sm-6">
-                <div class="single-footer-widget">
-                    <div class="logo">
-                        <a href="#"><img src="{% static 'assets/img/white-logo.png' %}" alt="image"></a>
-                        <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+                {% for rs in footer_data %}
+                    <div class="single-footer-widget">
+                        <div class="logo">
+                            <a href="#"><img width="220px" src="{{ rs.white_logo.url }}" alt="image"></a>
+                            <p>{{ rs.description }}</p>
+                        </div>
+                        <ul class="social">
+                            <li><a href="#" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="flaticon-twitter"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="flaticon-youtube-play-button"></i></a></li>
+                        </ul>
                     </div>
-
-                    <ul class="social">
-                        <li><a href="#" target="_blank"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="flaticon-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="flaticon-instagram-logo"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="flaticon-youtube-play-button"></i></a></li>
-                    </ul>
-                </div>
+                {% endfor %}
             </div>
 
             <div class="col-lg-3 col-md-6 col-sm-6">
